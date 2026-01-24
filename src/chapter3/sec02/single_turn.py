@@ -1,4 +1,4 @@
-from ollama_client import OllamaClient
+from src.ai_clients.ollama_client import OllamaClient
 
 ollama = OllamaClient()
 if __name__ == '__main__':
